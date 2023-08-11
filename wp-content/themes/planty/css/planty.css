@@ -51,14 +51,25 @@ p {
 body {
     font-family: 'syne', sans-serif; 
     margin: auto;
-    background-color: var(--main-bg-color);
+    width: 1440px;
 }
 
-button .nav {
+.main {
+display: flex;
+justify-content: center;
+background-color: var(--main-bg-color);
+}
+
+.btn-nav {
+    display: inline-flex;
     width: 236px;
     flex-shrink: 0;
     background-color: #DC9F96;
+    border-width: 0;
+    border-radius: 0%;
     font-size: 16px;
+    font-weight: 700;
+    font-family: "syne";
     color: #FFFFFF;
 } 
 
@@ -72,15 +83,14 @@ button {
     flex-shrink: 0; 
     border-radius: 5px;
     background: #E0B9B4; 
+    font-size: 30px;
 }
 
 header .container {
-
     background-color: #FFFFFF;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+    justify-content:space-between;
+    align-items:flex-end;
     padding: 0px;
 }
 
@@ -88,10 +98,20 @@ header .container {
     height: 80px;
 }
 
+a {
+    text-decoration: none;
+}
+
+a :hover {
+    font-size: 13px;
+    font-weight: 700; 
+}
+
 nav {
     display: flex;
-    justify-content: end;
-    gap: 30px;
+    align-items: center;
+    text-decoration: none;
+    gap: 60px;
 }
 
 .feuille-gauche {
