@@ -13,15 +13,11 @@
     <div class="container">
         <a href="index.php"><img src="http://localhost:8888/Planty/wp-content/uploads/2023/08/Logo-source.png" class="logo" alt="logo planty"></a>
         <nav>
-            <a href="#" class="hover"><p>Nous rencontrer</p></a>
+            <a href="#" class="hover"><p><?php wp_nav_menu(["menu"]) ?></p></a>
             <a href="#"><p>Admin</p></a>
             <button class="btn-nav">Commander</button>
         </nav>
     </div>
-
-   
-
-
 </header>
 <div id="container">
 <main id="content" role="main" class="main">

@@ -11,6 +11,7 @@ h1 {
     font-size: 38px;
     font-weight: 800;
     text-align: center;
+    margin: 40px;
 }
 
 h2 {
@@ -19,6 +20,7 @@ h2 {
     font-weight: 800;
     text-transform: uppercase;
     text-align: center;
+    margin: 30px;
 }
 
 h3 {
@@ -27,12 +29,14 @@ h3 {
     font-weight: 800;
     text-transform: uppercase;
     text-align: center;
+    margin: 30px;
 }
 
 h4 {
     color: var(--main-color2);
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 h5 {
@@ -54,7 +58,6 @@ p {
     color: #000;
     font-size: 16px;
     font-weight: 400;
-    margin-top: 20px;
 }
 
 body {
@@ -122,7 +125,7 @@ a :hover {
 
 nav {
     display: flex;
-    justify-self: center;
+    align-items: center;
     text-decoration: none;
     gap: 60px;
 }
@@ -144,5 +147,4 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
 }
