@@ -10,8 +10,11 @@ h1 {
     color: var(--main-color2);
     font-size: 38px;
     font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
     text-align: center;
-    margin: 40px;
+    padding: 0 150px;
+    margin: 50px;
 }
 
 h2 {
@@ -20,7 +23,7 @@ h2 {
     font-weight: 800;
     text-transform: uppercase;
     text-align: center;
-    margin: 30px;
+    padding: 15px;
 }
 
 h3 {
@@ -29,14 +32,14 @@ h3 {
     font-weight: 800;
     text-transform: uppercase;
     text-align: center;
-    margin: 30px;
+    margin: 60px;
 }
 
 h4 {
     color: var(--main-color2);
     font-size: 30px;
     font-weight: 700;
-    margin-bottom: 20px;
+    padding: 20px 0;
 }
 
 h5 {
@@ -64,12 +67,12 @@ body {
     font-family: 'syne', sans-serif; 
     margin: auto;
     width: 1440px;
+    background-color: #FFFFFF;
 }
 
 .main {
 display: flex;
 justify-content: center;
-background-color: var(--main-bg-color);
 }
 
 .btn-nav {
@@ -78,27 +81,26 @@ background-color: var(--main-bg-color);
     flex-shrink: 0;
     background-color: #DC9F96;
     border-width: 0;
-    border-radius: 0%;
+    border-radius: 5%;
     font-size: 16px;
     font-weight: 700;
     font-family: "syne";
     color: #FFFFFF;
 } 
 
-button {
-    display: flex;
+.btn-commander {
     width: 198px;
     height: 55px;
-    padding: 9px 57px 9px 56px;
+    padding: 9px 57px;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0; 
-    border-radius: 5px;
+    border-radius: 15px;
     background: #E0B9B4; 
-    font-size: 30px;
+    font-size: 16px;
+    color: #FFFFFF;
 }
 
-header .container {
+#header {
     background-color: #FFFFFF;
     display: flex;
     justify-content:space-between;
@@ -116,30 +118,38 @@ header .container {
 
 a {
     text-decoration: none;
+    font-size: 16px;
+    color: #000;
 }
 
-a :hover {
+a:hover {
     font-size: 13px;
     font-weight: 700; 
 }
 
-nav {
+.menu {
     display: flex;
     align-items: center;
     text-decoration: none;
-    gap: 60px;
 }
 
-.feuille-gauche {
-display: flex;
-justify-content: end;
+.menu li {
+    padding: 0 60px;
+    line-height: 80px;
+}
+.commande {
+    background-color: #DC9F96;
 }
 
-section {
+.commande a {
+    color: #FFFFFF;
+}
+
+/*::content {
     width: 820px;
     display: flex;
     justify-content: center;
-}
+}*/
 
 footer {
     background-color: #FFFFFF;
@@ -147,4 +157,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
 }
