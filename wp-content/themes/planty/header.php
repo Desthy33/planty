@@ -9,7 +9,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <header id="header" role="banner">
-        <a href="index.php"><img src="http://localhost:8888/Planty/wp-content/uploads/2023/08/Logo-source.png" class="logo" alt="logo planty"></a>
+        <a href="index.php"><img src="http://localhost:8888/Planty/wp-content/uploads/2023/08/Logo-source-e1692536264950.png" class="custom-logo-link" alt="logo planty"></a>
         <nav>
         <?php wp_nav_menu(["theme_location" => "main-menu"]) ?>
         </nav>
