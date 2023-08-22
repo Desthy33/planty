@@ -5,40 +5,10 @@
     --main-bg-color: #ECE2DA;
     --alt-bg-color: #3B8E46;
     --btn-bg-color: #E0B9B4;
-
     --main-bg-color2: #3d9448;
     --btn-hover-bg: #c02e44;
     --main-color: #D2776A;
-    
 }
-/* 
-h1 {
-    color: var(--main-color2);
-    font-size: 38px;
-    font-weight: 800;
-    line-height: normal;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 70px 250px;
-} */
-
-/* h2 {
-    color: var(--main-color);
-    font-size: 30px;
-    font-weight: 800;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 20px;
-} */
-
-/* h3 {
-    color: var(--main-color2);
-    font-size: 30px;
-    font-weight: 800;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 100px 80px;
-} */
 
 h4 {
     font-size: 30px;
@@ -59,15 +29,8 @@ h6 {
     text-align: center;
     font-size: 20px;
     line-height:26px;
-    font-weight: 400;
+    font-weight: 700;
     padding: 10px;
-}
-
-p {
-    color: #000;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 15px 0;
 }
 
 a {
@@ -87,7 +50,6 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 1440px;
-    /* min-width: 1025px; */
     margin: auto;
     font-family: 'syne', sans-serif; 
     background: #FFFFFF;
@@ -137,6 +99,7 @@ footer a {
     padding: 0 60px;
     line-height: 80px;
 }
+
 .commande {
     background-color: #DC9F96;
     order: 2;
@@ -160,7 +123,6 @@ footer a {
 .row {
     display: flex;
     flex-direction: row;
-    /* padding: 0; */
 }
 
 .column {
@@ -168,34 +130,6 @@ footer a {
     flex-direction: column;
     margin: 0;
 }
-
-/* .wrap {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;	
-	padding-bottom: 40px;
-} */
-
-/* .bg-rose {
-	flex-direction: column;
-	background-color : #ECE2DA;
-	padding: 50px;
-}
-
-.bg-rose-2 {
-	flex-direction: column;
-	background-color : #ECE2DA;
-
-}    
-
-.bg-vert {
-	display: flex;
-    justify-content: center;
-    width: 1440px;
-    flex-direction: column;
-	background-color : var(--main-bg-color2);
-    padding: 100px;
-}   */
 
 .border-1 {
     border-bottom-left-radius: 250px 80px;
@@ -215,32 +149,6 @@ footer a {
 	border-bottom-right-radius: 500px 80px;
 }
 
-/* .feuille-gauche {
-    width: 349px;
-    position: absolute;
-    right: 967px;
-    top: 540px;
-    z-index: -1;
-}
-
-.feuille-droite {
-    width: 349px;
-    position: absolute;
-    left: 915px;
-    top: 540px;
-    z-index: -1;
-} */
-
-/* .block-gouts {
-    width: 850px;
-    box-sizing: border-box;
-    padding: 0;
-} */
-/* 
-.wp-block-columns {
-    flex-wrap: wrap;
-} */
-
 .wp-block-button__link {
 border-radius: 5px;
 background-color: #e0b9b4;
@@ -253,32 +161,6 @@ margin: 0px;
 .avis {
 padding: 40px 100px;
 }
-   
-/* .fleur {
-	position: absolute;
-	width: 145px;
-	height: 150px;
-	top: 200px;
-	left: 380px;
-} */
-
-/* .feuille-team {
-	width: 191px;
-	height: 219px;
-	position: absolute;
-	top: 770px;
-	right: 330px;
-} */
-
-
-/* .fleur-2 {
-    position: absolute;
-    left: -200px;
-    bottom: 230px;
-    z-index: 0; 
-} */
-
-
 
 .contact-form {
 	display: flex;
@@ -322,24 +204,6 @@ input[type="submit"].wpcf7-submit:hover {
     font-weight: 700; 
 }
 
-/* .title-form {
-    color: #000;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: normal;   
-    padding: 30px;
-} */
-
-/* .title-form-2 {
-    display: flex;
-    justify-content: flex-start;
-    color: #FFFFFF;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: normal;   
-    padding: 40px 115px;
-} */
-
 .txt-form {
     color: #000;
     font-size: 20px;
@@ -356,58 +220,6 @@ textarea.wpcf7-form-control {
     font-size: 24px;
     padding: 15px;
 }
-
-/* .separateur {
-    width: 1000px;
-    color: #FFFFFF;
-    margin: 0 120px;
-} */
-/* 
-.btn-ok {
-    border-radius: 5px;
-    background-color: var(--main-bg-color);
-    width: 100px;
-    height: 56px;
-    padding: 10px 0px;
-    border-width: 0;
-    margin-left: 5px;
-    color: #FFFFFF;
-} */
-/* 
-.btn-quant {
-    border-radius: 5px;
-    background-color: #FFFFFF;
-    width: 51px;
-    height: 56px;
-    padding: 10px 0px;
-    border-width: 0;
-    border-radius: 5px 0 0 5px;
-}
-
-.btn-plus {
-    border-radius: 0 5px 0 0;
-    background-color: #DC9F96;
-    width: 31px;
-    height: 28px; 
-    border-width: 0;
-    color: #FFFFFF;
-}
-
-.btn-moins{
-    border-radius: 0 0 5px 0;
-    background-color:#DC9F96;
-    width: 31px;
-    height: 28px; 
-    border-width: 0;
-    padding: 0;
-    color: #FFFFFF;
-} */
-
-/* .img-cmd {
-    width: 192px;
-    height: 128px;
-    margin: 0 20px 5px 0;
-} */
 
 .separateur-2 {
     width: 31px;
@@ -476,7 +288,8 @@ h3 {
 p {
     color: #000;
     font-size: 20px;
-    padding: 15px 0;
+    padding: 10px 0;
+    line-height: 23px;
 }
 
 .btn {
@@ -514,6 +327,7 @@ p {
     margin: 80px 20%; 
     text-transform: uppercase;
     color: var(--alt-bg-color);
+    line-height: 3rem;
 }
 
 .canette {
@@ -575,8 +389,6 @@ p {
     margin-top: 60px;
 }
 
-
-
 .temoignages {
     padding-top: 80px; 
     padding-bottom: 160px; 
@@ -594,6 +406,7 @@ p {
     margin-top: 30px;
     color: var(--alt-bg-color);
 }
+
 /* ---------------------- Nous rencontrer ------------------------ */
 
 .nous-rencontrer {
@@ -608,15 +421,15 @@ p {
 .fleur {
 	position: absolute;
 	width: 145px;
-	top: 75px;
-	left: 100px;
+	top: 100px;
+	left: 150px;
 }
 
 .nous-rencontrer p {
     width: 48%;
     margin: 0 auto;
+    padding-bottom: 5px;
 }
-
 
 .equipe {
     padding-top: 80px;
@@ -653,7 +466,6 @@ p {
 .contact-form h3 {
     color: #000;
     margin-bottom: 40px;
-
 }
 
 .contact-form .title-form {
@@ -691,9 +503,7 @@ p {
     margin-bottom: 15px;
 }
 
-
 /* ---------------------- Commander ------------------------ */
-
 
 .commande-form {
     background-color: var(--alt-bg-color);
@@ -718,40 +528,10 @@ p {
     position: relative;
 }
 
-
-
-
 .formulaire {
     background-color: #ece2da;
     position: relative;
-}
-/* 
-.wpcf7-form {
-    margin: 0 auto;
-    width: 400px;
-    z-index: 2;
-    position: relative;
-} */
-
-/* .fleur-2 {
-    position: absolute;
-    left: 25%;
-    bottom: 15px;
-    z-index: 1;
-} */
-
-/* .cmd-form {
-    align-items: center;
-} */
-
-/* .title-form-2 {
-    align-items: flex-start;
-    color: #FFFFFF;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: normal;   
-    /* padding: 40px 115px; 
-} */
+}    
 
 .quantites {
     justify-content: center;
@@ -792,7 +572,6 @@ p {
     color: #FFFFFF;
     box-sizing: border-box;
     cursor: pointer;
-
 }
 
 .btn-moins{
@@ -882,7 +661,6 @@ p {
         position: relative;
         margin-left: 20px;
     }
-
     
 }
 
@@ -907,5 +685,3 @@ p {
         display: none;
     }
 }
-
-
