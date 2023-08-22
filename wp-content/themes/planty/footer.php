@@ -1,6 +1,6 @@
 </main>
 <footer id="footer" role="contentinfo">
-<p>Mentions légales</p>
+<a href="<?php echo home_url();?>">Mentions légales</a>
 </footer>
 </body>
 </html>
